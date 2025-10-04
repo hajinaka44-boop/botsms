@@ -1,0 +1,15 @@
+# Token bot Telegram (buat bot via @BotFather)
+BOT_TOKEN=8049180347:AAEIgKj5a7BNGGCINqr4U1gfKSUuEQY5yi4
+# Chat ID Telegram (bisa user ID, group ID, atau channel ID)
+# contoh: 123456789 atau -1001234567890 (untuk supergroup)
+CHAT_ID=-4921747439
+
+# Akun iVASMS yang dipakai untuk login
+IVASMS_EMAIL=xandera811@gmail.com
+IVASMS_PASSWORD=xandera811@gmail.com
+
+# Interval cek SMS masuk (detik)
+POLL_INTERVAL=15
+
+# File sementara untuk simpan last_id supaya tidak kirim dobel
+LAST_ID_FILE=/tmp/ivasms_last_id.txt
